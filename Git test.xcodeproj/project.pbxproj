@@ -21,6 +21,7 @@
 		3F2BABCD196B282300DF5A4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2BABAF196B282200DF5A4E /* UIKit.framework */; };
 		3F2BABD5196B282300DF5A4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F2BABD3196B282300DF5A4E /* InfoPlist.strings */; };
 		3F2BABD7196B282300DF5A4E /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BABD6196B282300DF5A4E /* Git_testTests.m */; };
+		3F4FE202196BB5AD005642FC /* OPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4FE201196BB5AD005642FC /* OPTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3F2BABD2196B282300DF5A4E /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		3F2BABD4196B282300DF5A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F2BABD6196B282300DF5A4E /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		3F4FE200196BB5AD005642FC /* OPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPTest.h; sourceTree = "<group>"; };
+		3F4FE201196BB5AD005642FC /* OPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				3F2BABBD196B282200DF5A4E /* Main.storyboard */,
 				3F2BABC0196B282200DF5A4E /* OPViewController.h */,
 				3F2BABC1196B282200DF5A4E /* OPViewController.m */,
+				3F4FE200196BB5AD005642FC /* OPTest.h */,
+				3F4FE201196BB5AD005642FC /* OPTest.m */,
 				3F2BABC3196B282200DF5A4E /* Images.xcassets */,
 				3F2BABB2196B282200DF5A4E /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				3F2BABB8196B282200DF5A4E /* main.m in Sources */,
 				3F2BABBC196B282200DF5A4E /* OPAppDelegate.m in Sources */,
+				3F4FE202196BB5AD005642FC /* OPTest.m in Sources */,
 				3F2BABC2196B282200DF5A4E /* OPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				3F2BABDC196B282300DF5A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F2BABDD196B282300DF5A4E /* Build configuration list for PBXNativeTarget "Git testTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				3F2BABDF196B282300DF5A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
